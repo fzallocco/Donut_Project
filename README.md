@@ -11,7 +11,7 @@ Lex Fridman's tutorial at `https://www.youtube.com/watch?v=DEqXNfs_HhY` delivers
 
 ![Alt text](LexFridman_explanation.png)
 
-"Lex Fridman's explanation of the C code"
+### Lex Fridman's explanation of the C code ###
 
 While I kept Lex Fridman's C code as is, I made minor changes to Andy Sloane's JS version to fit the app into a React project for better portability across mobile devices.
 
