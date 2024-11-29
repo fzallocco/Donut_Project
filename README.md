@@ -10,10 +10,13 @@ Among the several tutorial on YouTube that cover the spinning torus project in C
 Lex Fridman's tutorial at `https://www.youtube.com/watch?v=DEqXNfs_HhY` delivers a brief overview of the project and the literature behind, including Andy Sloane's math explanation & JS code at `https://www.a1k0n.net/2011/07/20/donut-math.html`.
 
 ![Alt text](LexFridman_explanation.png)
-(Lex Fridman's explanation of the C code)
+
+"Lex Fridman's explanation of the C code"
 
 While I kept Lex Fridman's C code as is, I made minor changes to Andy Sloane's JS version to fit the app into a React project for better portability across mobile devices.
+
 In his tutorial, Green Code explains how the 3D torus/donut gets its 3D effect. The donut is displayed on to the terminal using ASCII characters, alist of letters, numbers, and symbols. To create the illusion that the donut has three dimensions, making it look brighter on certain sides, the C program calculates the dot product by multiplying the surface normal and the light direction via rotation matrices. Then, it assigns the `@` sign to the donut's brightest part, and the `.` sign to its least bright side. In between, go all the other ASCII characters in order of brightness (`https://www.youtube.com/watch?v=74FJ8TTMM5E&t=10s`).
+
 Giovanni Code's tutorial goes deep into Andy Sloane's math explanation and provides a Python version of the C code that you can follow at `https://www.youtube.com/watch?v=LqQ-ezbyiW4` & `https://github.com/codegiovanni/Donut_2.0`.
 
 Below are interesting resources covering how the C compiler performs Math calculations featured in the donut program:
