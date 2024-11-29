@@ -9,9 +9,9 @@ In terms of execution and compiling speed, the C code is a much better option th
 Among the several tutorial on YouTube that cover the spinning torus project in C/C++, this stood out the most to me.
 Lex Fridman's tutorial at `https://www.youtube.com/watch?v=DEqXNfs_HhY` delivers a brief overview of the project and the literature behind, including Andy Sloane's math explanation & JS code at `https://www.a1k0n.net/2011/07/20/donut-math.html`.
 
-![Alt text](LexFridman_explanation.png)
+Here is Lex Fridman's explanation of the C code
 
-### Lex Fridman's explanation of the C code ###
+![Alt text](LexFridman_explanation.png)
 
 While I kept Lex Fridman's C code as is, I made minor changes to Andy Sloane's JS version to fit the app into a React project for better portability across mobile devices.
 
