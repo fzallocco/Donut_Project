@@ -1,3 +1,44 @@
+# Front-End React Setup on Docker (Recommended)
+
+Below are instructions on how to set up the front-end Docker image and run the Docker container.
+
+## Setting Up Docker Image
+
+1. Make sure you are in **donut-app** directory inside **JSVersion** and run the below command to create the image.
+
+    ```
+    docker build -t donut:dev . --no-cache 
+    ```
+
+## Running the container from the image
+
+2. Run the below command to create the container.
+
+    ```
+    docker run -p 3000:3000 donut:dev
+    ```
+***
+
+# Front-End React Setup on Local Machine
+
+Below are instructions on how to run the front-end
+
+## Files Required to Run
+
+1. Make sure you are in **donut-app** directory inside **JSVersion** and run the below command to install the necessary files.
+
+    ```
+    npm install 
+    ```
+
+## Running the Front-End
+
+2. Run the below command to run the Front-End.
+
+    ```
+    npm start
+    ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
